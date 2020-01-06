@@ -1,10 +1,13 @@
 package app.model;
 
-
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import lombok.Data;
 
 import javax.persistence.*;
-import lombok.*;
+import javax.validation.constraints.Size;
+import java.util.Date;
+import java.util.LinkedHashSet;
+import java.util.Set;
 
 
 @Entity
@@ -21,21 +24,24 @@ public class Point {
     @Column(name = "timestamp", nullable = false)
     private long date;
 
-    @Column(name = "check", nullable = false)
-    private boolean check;
-
-    @Column(name = "x", nullable = false)
-    private Double x;
-
-    @Column(name = "y", nullable = false)
-    private Double y;
-
-    @Column(name = "r", nullable = false)
-    private Double r;
+    @Column(name = "name", nullable = false)
+    private String name;
 
     @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "creator", nullable = false)
     private User creator;
+
+    @OneToMany(fetch = FetchType.EAGER, mappedBy = "point", cascade = CascadeType.ALL)
+    private Set<History> history;
+
+    public Point(){}
+
+    public Point(String name, User creator){
+        this.name = name;
+        this.creator = creator;
+        this.history = new LinkedHashSet<>();
+        this.date = new Date().getTime();
+    }
 
 
 }

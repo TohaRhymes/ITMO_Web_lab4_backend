@@ -3268,8 +3268,8 @@
     <schema id="1088" parent="1" name="S264475">
       <ObjectId>2746</ObjectId>
       <CreatedTimestamp>2019-12-05.05:14:54</CreatedTimestamp>
-      <ModifiedTimestamp>2020-01-05.23:26:00</ModifiedTimestamp>
-      <IntrospectionTimestamp>2020-01-05.23:26:02</IntrospectionTimestamp>
+      <ModifiedTimestamp>2020-01-06.18:08:36</ModifiedTimestamp>
+      <IntrospectionTimestamp>2020-01-06.18:08:37</IntrospectionTimestamp>
       <Current>1</Current>
     </schema>
     <schema id="1089" parent="1" name="S264476">
@@ -41561,108 +41561,155 @@
       <TargetSchemaName>ISU_UCHEB</TargetSchemaName>
       <TargetObjectName>ЧЕЛОВЕК</TargetObjectName>
     </synonym>
-    <table id="7104" parent="1088" name="POINTS">
-      <ObjectId>663610</ObjectId>
-      <CreatedTimestamp>2020-01-05</CreatedTimestamp>
-      <ModifiedTimestamp>2020-01-05</ModifiedTimestamp>
+    <table id="7104" parent="1088" name="HISTORY">
+      <ObjectId>663708</ObjectId>
+      <CreatedTimestamp>2020-01-06</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-06</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="7105" parent="1088" name="POINTS_XY">
+    <table id="7105" parent="1088" name="POINTS">
+      <ObjectId>663610</ObjectId>
+      <CreatedTimestamp>2020-01-05</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-06</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="7106" parent="1088" name="POINTS_XY">
       <ObjectId>659424</ObjectId>
       <CreatedTimestamp>2019-12-06</CreatedTimestamp>
       <ModifiedTimestamp>2019-12-06</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="7106" parent="1088" name="POINT_R_HISTORY">
+    <table id="7107" parent="1088" name="POINT_R_HISTORY">
       <ObjectId>659422</ObjectId>
       <CreatedTimestamp>2019-12-06</CreatedTimestamp>
       <ModifiedTimestamp>2019-12-06</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="7107" parent="1088" name="USERS">
+    <table id="7108" parent="1088" name="USERS">
       <ObjectId>663608</ObjectId>
       <CreatedTimestamp>2020-01-05</CreatedTimestamp>
       <ModifiedTimestamp>2020-01-05</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <column id="7108" parent="7104" name="ID">
+    <column id="7109" parent="7104" name="ID">
       <Position>1</Position>
       <DataType>NUMBER(10 digit)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="7109" parent="7104" name="TIMESTAMP">
+    <column id="7110" parent="7104" name="TIMESTAMP">
       <Position>2</Position>
       <DataType>NUMBER(19 digit)|0s</DataType>
     </column>
-    <column id="7110" parent="7104" name="CHECK">
+    <column id="7111" parent="7104" name="POINT_ID">
       <Position>3</Position>
-      <DataType>NUMBER(1 digit)|0s</DataType>
+      <DataType>NUMBER(10 digit)|0s</DataType>
     </column>
-    <column id="7111" parent="7104" name="X">
+    <column id="7112" parent="7104" name="X">
       <Position>4</Position>
       <DataType>FLOAT(*)|0s</DataType>
     </column>
-    <column id="7112" parent="7104" name="Y">
+    <column id="7113" parent="7104" name="Y">
       <Position>5</Position>
       <DataType>FLOAT(*)|0s</DataType>
     </column>
-    <column id="7113" parent="7104" name="R">
+    <column id="7114" parent="7104" name="R">
       <Position>6</Position>
       <DataType>FLOAT(*)|0s</DataType>
     </column>
-    <column id="7114" parent="7104" name="CREATOR">
+    <column id="7115" parent="7104" name="CHECK">
       <Position>7</Position>
+      <DataType>NUMBER(1 digit)|0s</DataType>
+    </column>
+    <index id="7116" parent="7104" name="HISTORY_ID_UINDEX">
+      <ObjectId>663709</ObjectId>
+      <CreatedTimestamp>2020-01-06</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-06</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="7117" parent="7104" name="HISTORY_PK">
+      <ModifiedTimestamp>2020-01-06</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>HISTORY_ID_UINDEX</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="7118" parent="7104" name="HISTORY_POINTS_ID_FK">
+      <ModifiedTimestamp>2020-01-06</ModifiedTimestamp>
+      <ColNames>POINT_ID</ColNames>
+      <RefTableName>POINTS</RefTableName>
+      <RefKeyName>POINTS_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="7119" parent="7105" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="7120" parent="7105" name="TIMESTAMP">
+      <Position>2</Position>
+      <DataType>NUMBER(19 digit)|0s</DataType>
+    </column>
+    <column id="7121" parent="7105" name="NAME">
+      <Position>3</Position>
+      <DataType>VARCHAR2(255 byte)|0s</DataType>
+    </column>
+    <column id="7122" parent="7105" name="CREATOR">
+      <Position>4</Position>
       <DataType>VARCHAR2(255 char)|0us</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="7115" parent="7104" name="POINTS_ID_UINDEX">
+    <index id="7123" parent="7105" name="POINTS_ID_UINDEX">
       <ObjectId>663611</ObjectId>
+      <Outdated>1</Outdated>
       <CreatedTimestamp>2020-01-05</CreatedTimestamp>
       <ModifiedTimestamp>2020-01-05</ModifiedTimestamp>
       <TablespaceName>USERS</TablespaceName>
       <ColNames>ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <index id="7116" parent="7104" name="POINTS_CREATOR_UINDEX">
+    <index id="7124" parent="7105" name="POINTS_CREATOR_UINDEX">
       <ObjectId>663614</ObjectId>
+      <Outdated>1</Outdated>
       <CreatedTimestamp>2020-01-05</CreatedTimestamp>
       <ModifiedTimestamp>2020-01-05</ModifiedTimestamp>
       <TablespaceName>USERS</TablespaceName>
       <ColNames>CREATOR</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="7117" parent="7104" name="POINTS_PK">
+    <key id="7125" parent="7105" name="POINTS_PK">
       <ModifiedTimestamp>2020-01-05</ModifiedTimestamp>
       <ColNames>ID</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <UnderlyingIndexName>POINTS_ID_UINDEX</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="7118" parent="7104" name="POINTS_USERS_LOGIN_FK">
+    <foreign-key id="7126" parent="7105" name="POINTS_USERS_LOGIN_FK">
       <ModifiedTimestamp>2020-01-05</ModifiedTimestamp>
       <ColNames>CREATOR</ColNames>
       <RefTableName>USERS</RefTableName>
       <RefKeyName>USERS_PK</RefKeyName>
       <OnDelete>restrict</OnDelete>
     </foreign-key>
-    <column id="7119" parent="7105" name="ID">
+    <column id="7127" parent="7106" name="ID">
       <Position>1</Position>
       <DataType>NUMBER(19 digit)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="7120" parent="7105" name="OWN">
+    <column id="7128" parent="7106" name="OWN">
       <Position>2</Position>
       <DataType>VARCHAR2(255 char)|0us</DataType>
     </column>
-    <column id="7121" parent="7105" name="X">
+    <column id="7129" parent="7106" name="X">
       <Position>3</Position>
       <DataType>FLOAT(*)|0s</DataType>
     </column>
-    <column id="7122" parent="7105" name="Y">
+    <column id="7130" parent="7106" name="Y">
       <Position>4</Position>
       <DataType>FLOAT(*)|0s</DataType>
     </column>
-    <index id="7123" parent="7105" name="POINT_XY_ID_UINDEX">
+    <index id="7131" parent="7106" name="POINT_XY_ID_UINDEX">
       <ObjectId>659425</ObjectId>
       <CreatedTimestamp>2019-12-06</CreatedTimestamp>
       <ModifiedTimestamp>2019-12-06</ModifiedTimestamp>
@@ -41670,31 +41717,31 @@
       <ColNames>ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="7124" parent="7105" name="POINT_XY_PK">
+    <key id="7132" parent="7106" name="POINT_XY_PK">
       <ModifiedTimestamp>2019-12-06</ModifiedTimestamp>
       <ColNames>ID</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <UnderlyingIndexName>POINT_XY_ID_UINDEX</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <column id="7125" parent="7106" name="ID">
+    <column id="7133" parent="7107" name="ID">
       <Position>1</Position>
       <DataType>NUMBER(19 digit)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="7126" parent="7106" name="CH">
+    <column id="7134" parent="7107" name="CH">
       <Position>2</Position>
       <DataType>VARCHAR2(255 char)|0us</DataType>
     </column>
-    <column id="7127" parent="7106" name="R">
+    <column id="7135" parent="7107" name="R">
       <Position>3</Position>
       <DataType>FLOAT(*)|0s</DataType>
     </column>
-    <column id="7128" parent="7106" name="POINT_ID">
+    <column id="7136" parent="7107" name="POINT_ID">
       <Position>4</Position>
       <DataType>NUMBER(19 digit)|0s</DataType>
     </column>
-    <index id="7129" parent="7106" name="POINT_R_HISTORY_ID_UINDEX">
+    <index id="7137" parent="7107" name="POINT_R_HISTORY_ID_UINDEX">
       <ObjectId>659423</ObjectId>
       <CreatedTimestamp>2019-12-06</CreatedTimestamp>
       <ModifiedTimestamp>2019-12-06</ModifiedTimestamp>
@@ -41702,23 +41749,23 @@
       <ColNames>ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="7130" parent="7106" name="POINT_R_HISTORY_PK">
+    <key id="7138" parent="7107" name="POINT_R_HISTORY_PK">
       <ModifiedTimestamp>2019-12-06</ModifiedTimestamp>
       <ColNames>ID</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <UnderlyingIndexName>POINT_R_HISTORY_ID_UINDEX</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <column id="7131" parent="7107" name="LOGIN">
+    <column id="7139" parent="7108" name="LOGIN">
       <Position>1</Position>
       <DataType>VARCHAR2(255 char)|0us</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="7132" parent="7107" name="PASSWORD">
+    <column id="7140" parent="7108" name="PASSWORD">
       <Position>2</Position>
       <DataType>VARCHAR2(255 char)|0us</DataType>
     </column>
-    <index id="7133" parent="7107" name="USERS_LOGIN_UINDEX">
+    <index id="7141" parent="7108" name="USERS_LOGIN_UINDEX">
       <ObjectId>663609</ObjectId>
       <CreatedTimestamp>2020-01-05</CreatedTimestamp>
       <ModifiedTimestamp>2020-01-05</ModifiedTimestamp>
@@ -41726,7 +41773,7 @@
       <ColNames>LOGIN</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="7134" parent="7107" name="USERS_PK">
+    <key id="7142" parent="7108" name="USERS_PK">
       <ModifiedTimestamp>2020-01-05</ModifiedTimestamp>
       <ColNames>LOGIN</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
