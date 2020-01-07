@@ -1,4 +1,4 @@
-package app.service;
+package app.service.impl;
 
 import app.model.History;
 import app.model.Point;
@@ -6,6 +6,7 @@ import app.model.User;
 import app.plot.Checker;
 import app.repository.HistoryRepository;
 import app.repository.PointRepository;
+import app.service.PointService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

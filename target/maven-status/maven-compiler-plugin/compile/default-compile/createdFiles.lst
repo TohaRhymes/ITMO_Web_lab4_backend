@@ -1,7 +1,0 @@
-app/repository/PointRepository.class
-app/repository/UserRepository.class
-app/Service/PointService.class
-app/Application.class
-app/Service/UserService.class
-app/model/User.class
-app/model/Point.class

@@ -47,12 +47,6 @@
             <artifactId>orai18n</artifactId>
             <version>19.3.0.0</version>
         </dependency>
-        <dependency>
-            <!-- Automatically restart whenever files on the classpath change -->
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-devtools</artifactId>
-            <optional>true</optional>
-        </dependency>
 
 
 <!--todo check this prikolyandry -->
