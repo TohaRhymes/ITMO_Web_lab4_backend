@@ -14,7 +14,7 @@ public class PointUpdateRequest {
 
 
     public void check() {
-        if (!(Checker.checkRadius(r) && Checker.checkCoordinates(x, y))) {
+        if (!Checker.checkCoordinates(x, y)) {
             throw new HttpMessageNotReadableException("Out of range");
         }
     }

@@ -1,8 +1,6 @@
 package app.request;
 
-import app.model.History;
-import app.model.Point;
-import app.model.User;
+import app.model.*;
 import app.plot.Checker;
 import lombok.Data;
 import org.springframework.http.converter.HttpMessageNotReadableException;

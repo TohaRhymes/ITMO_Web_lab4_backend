@@ -1,7 +1,6 @@
 package app.service.impl;
 
 import app.model.User;
-import app.service.UserService;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.*;
@@ -14,9 +13,9 @@ import java.util.Set;
 @Service
 public class UserDetailsServiceImpl implements UserDetailsService {
 
-    private UserService service;
+    private UserServiceImpl service;
 
-    public UserDetailsServiceImpl(UserService service){
+    public UserDetailsServiceImpl(UserServiceImpl service){
         this.service = service;
     }
 

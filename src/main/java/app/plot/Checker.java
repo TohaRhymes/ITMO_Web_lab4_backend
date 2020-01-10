@@ -10,8 +10,8 @@ public class Checker {
     }
 
     public static boolean checkCoordinates(double x, double y) {
-        boolean okayX = x <= 3 && x >= -5;
-        boolean okayY = y <= 3 && y >= -5;
+        boolean okayX = x >= -5 && x <= 3;
+        boolean okayY = y >= -5 && y <= 3;
         return okayX && okayY;
     }
 

@@ -21,7 +21,6 @@ public class PointServiceImpl implements PointService {
     private final HistoryRepository historyRepository;
 
 
-    @Autowired
     public PointServiceImpl(PointRepository repository, HistoryRepository historyRepository) {
         this.pointRepository = repository;
         this.historyRepository = historyRepository;

@@ -2,47 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71f1d1fe-ce78-4ad0-b95a-44fa807a41d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/security/CorsFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/security/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/86dc09c6-bfb0-4c91-9206-5a30dce24b20.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/86dc09c6-bfb0-4c91-9206-5a30dce24b20.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/ApplicationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controller/ApplicationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/model/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/model/Point.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/repository/HistoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/repository/HistoryRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/repository/PointRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/repository/PointRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/plot/Checker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/plot/Checker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/request/PointAddRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/request/PointAddRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/request/PointUpdateRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/request/PointUpdateRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/security/CorsFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/security/CorsFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/security/SecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/service/impl/PointServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/service/impl/PointServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/service/impl/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/service/impl/UserDetailsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITMO_Web_lab4_backend-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ITMO_Web_lab4_backend-1.0-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/model/History.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/model/History.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/model/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/model/Point.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/repository/HistoryRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/repository/HistoryRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/repository/PointRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/repository/PointRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/repository/UserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/service/PointServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/css/maven-base.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/css/maven-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/css/print.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/css/site.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/dependencies.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/dependency-info.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/dependency-management.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/close.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/collapsed.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/expanded.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/external.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/icon_error_sml.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/icon_info_sml.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/icon_success_sml.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/icon_warning_sml.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/logos/build-by-maven-black.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/logos/build-by-maven-white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/logos/maven-feather.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/newwindow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/controller/ApplicationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/controller/ApplicationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/plot/Checker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/plot/Checker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/request/PointAddRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/request/PointAddRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/request/PointUpdateRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/request/PointUpdateRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/service/impl/PointServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/service/impl/PointServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/service/impl/UserDetailsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/service/impl/UserDetailsServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/service/impl/UserServiceImpl.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,6 +69,9 @@
       </path>
     </expand>
     <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="ITMO_Web_lab4_backend" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -222,12 +203,26 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@35c7e161" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@4719148b" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@35c7e161" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@f672d0be" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@4719148b" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@82b5f527" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@a7b0256e" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@a7b0256e" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@d7fa25b" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@a7b0256e" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@439f7209" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -253,7 +248,9 @@
       <workItem from="1578302655569" duration="184000" />
       <workItem from="1578302874307" duration="14495000" />
       <workItem from="1578401679502" duration="1451000" />
-      <workItem from="1578407805186" duration="7471000" />
+      <workItem from="1578407805186" duration="7565000" />
+      <workItem from="1578432341766" duration="211000" />
+      <workItem from="1578486548655" duration="12071000" />
     </task>
     <servers />
   </component>

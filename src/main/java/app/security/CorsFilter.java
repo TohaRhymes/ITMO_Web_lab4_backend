@@ -1,10 +1,9 @@
 package app.security;
 
-import org.springframework.stereotype.Component;
-
+import java.io.IOException;
 import javax.servlet.*;
 import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
+import org.springframework.stereotype.Component;
 
 @Component
 public class CorsFilter implements Filter {

@@ -22,9 +22,7 @@ import java.util.Set;
 @EnableWebSecurity
 public class ApplicationController{
 
-    @Autowired
     private final PointServiceImpl pointService;
-    @Autowired
     private final UserServiceImpl userService;
 
     public ApplicationController(PointServiceImpl pointService, UserServiceImpl userService) {
@@ -32,6 +30,10 @@ public class ApplicationController{
         this.userService = userService;
     }
 
+    @GetMapping
+    public RedirectView redirectToIndex() {
+        return new RedirectView("/index.html");
+    }
 
     @PostMapping("/add")
     public BaseResponse addPoint(@RequestBody PointAddRequest pointAddRequest){

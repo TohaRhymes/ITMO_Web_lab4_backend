@@ -41563,12 +41563,14 @@
     </synonym>
     <table id="7104" parent="1088" name="HISTORY">
       <ObjectId>663708</ObjectId>
+      <Outdated>1</Outdated>
       <CreatedTimestamp>2020-01-06</CreatedTimestamp>
       <ModifiedTimestamp>2020-01-06</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
     <table id="7105" parent="1088" name="POINTS">
       <ObjectId>663610</ObjectId>
+      <Outdated>1</Outdated>
       <CreatedTimestamp>2020-01-05</CreatedTimestamp>
       <ModifiedTimestamp>2020-01-06</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
@@ -41587,6 +41589,7 @@
     </table>
     <table id="7108" parent="1088" name="USERS">
       <ObjectId>663608</ObjectId>
+      <Outdated>1</Outdated>
       <CreatedTimestamp>2020-01-05</CreatedTimestamp>
       <ModifiedTimestamp>2020-01-05</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
