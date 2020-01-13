@@ -1,7 +1,7 @@
 package app.plot;
 
 public class Checker {
-    public static boolean checkPoint(double x, double y, double r) {
+    public static boolean checkHitArea(double x, double y, double r) {
         boolean QuadrantI = x >= 0 && y >= 0 && y + 2 * x <= r;
         boolean QuadrantII = x <= 0 && y >= 0 && x * x + y * y <= r * r / 4;
         boolean QuadrantIII = x <= 0 && y <= 0 && x >= -r / 2 && y >= -r;

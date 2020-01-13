@@ -1,46 +1,53 @@
 package app.model;
 
+
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
 import javax.persistence.*;
-import java.util.Date;
-import java.util.LinkedHashSet;
-import java.util.Set;
-
+import java.util.*;
 
 @Entity
-@Table(name = "points")
-@Data
+@Table(name="points")
 @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 public class Point {
 
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     @Column(name = "id", nullable = false)
+    @Setter
+    @Getter
     private int id;
 
     @Column(name = "timestamp", nullable = false)
+    @Setter
+    @Getter
     private long date;
 
-    @Column(name = "name", nullable = false)
-    private String name;
+    @Column(name = "r", nullable = false)
+    @Setter
+    @Getter
+    private Double r;
 
     @ManyToOne(fetch = FetchType.EAGER)
-    @JoinColumn(name = "creator", nullable = false)
-    private User creator;
+    @JoinColumn(name = "owner", nullable = false)
+    @Setter
+    @Getter
+    private User owner;
 
     @OneToMany(fetch = FetchType.EAGER, mappedBy = "point", cascade = CascadeType.ALL)
-    private Set<History> history;
+    @Setter
+    @Getter
+    private Set<History> histories;
 
-    public Point(){}
-
-    public Point(String name, User creator){
-        this.name = name;
-        this.creator = creator;
-        this.history = new LinkedHashSet<>();
+    public Point(Double r, User owner){
+        this.histories = new LinkedHashSet<>();
+        this.r = r;
         this.date = new Date().getTime();
+        this.owner = owner;
     }
 
+    public Point(){}
 
 }
