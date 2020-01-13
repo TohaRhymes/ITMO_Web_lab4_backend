@@ -2,64 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71f1d1fe-ce78-4ad0-b95a-44fa807a41d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/createTablesScript.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/responses/BaseResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/test/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/test/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/86dc09c6-bfb0-4c91-9206-5a30dce24b20.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/86dc09c6-bfb0-4c91-9206-5a30dce24b20/storage_v2/_src_/schema/PUBLIC.aaZQjQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/86dc09c6-bfb0-4c91-9206-5a30dce24b20/storage_v2/_src_/schema/S264475.tecIfw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/86dc09c6-bfb0-4c91-9206-5a30dce24b20/storage_v2/_src_/schema/SYS.rUIBAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/86dc09c6-bfb0-4c91-9206-5a30dce24b20/storage_v2/_src_/schema/SYSTEM.L2avkg.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/ApplicationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controllers/AppController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/model/History.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/model/History.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/model/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/model/Point.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/plot/Checker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/plot/Checker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/repository/HistoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/repository/HistoryRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/repository/PointRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/repository/PointRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/request/PointAddRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/requests/PointAddRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/request/PointUpdateRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/requests/PointUpdateRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/request/UserAddRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/requests/UserAddRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/response/BaseResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/security/CorsFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/security/CorsFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/security/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/service/PointService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/service/PointService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/service/impl/PointServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/service/Impl/PointServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/service/impl/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/service/Impl/UserDetailsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/service/Impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/ITMO_Web_lab4_backend.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/controller/ApplicationController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/model/History.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/model/History.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/model/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/model/Point.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/plot/Checker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/plot/Checker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/repository/HistoryRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/repository/HistoryRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/repository/PointRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/repository/PointRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/repository/UserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/request/PointAddRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/request/PointUpdateRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/request/UserAddRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/response/BaseResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/security/CorsFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/security/CorsFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/security/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/security/SecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/service/PointService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/service/PointService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/service/impl/PointServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/service/impl/UserDetailsServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/service/impl/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -306,7 +249,7 @@
       <workItem from="1578742256826" duration="6556000" />
       <workItem from="1578759072704" duration="1508000" />
       <workItem from="1578839633487" duration="1233000" />
-      <workItem from="1578920789981" duration="6835000" />
+      <workItem from="1578920789981" duration="8078000" />
     </task>
     <servers />
   </component>
